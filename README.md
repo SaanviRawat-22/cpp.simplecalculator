@@ -1,5 +1,7 @@
 # cpp.simplecalculator
 A beginner-friendly C++ calculator that performs basic arithmetic operations, square, and power calculations using a menu-driven interface.
+## 🎯 Author
+**Saanvi Rawat**
 # C++ Calculator
 
 A beginner-friendly C++ calculator built while learning C++. This project performs basic mathematical operations through a simple menu-driven interface.
@@ -31,5 +33,4 @@ A beginner-friendly C++ calculator built while learning C++. This project perfor
 - Arithmetic Operators
 - Basic User Interaction
 
-## 🎯 Author
-**Saanvi**
+
