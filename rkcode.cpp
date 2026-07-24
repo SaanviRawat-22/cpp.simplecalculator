@@ -3,6 +3,7 @@
 using namespace std;
 int main() {
     cout<<"******!WELCOME TO CALCULATOR!******\n";
+    while(true){
     cout<<"CHOOSE THE FUNCTION YOU WANT TO PERFORM:\n     ";
     cout<<"1.ADDITION\n     ";
     cout<<"2.SUBTRACTION\n     ";
@@ -20,7 +21,7 @@ int main() {
         cin>>a;
         cout<<"enter second number:\n    ";
         cin>>b;
-        cout<<"THE SUM OF THE TWO GIVEN NUMBER IS :\n    "<<(a+b);
+        cout<<"THE SUM OF THE TWO GIVEN NUMBER IS :\n    "<<(a+b)<<endl;
         
     }else if (choice==2){
         int a,b;
@@ -28,7 +29,7 @@ int main() {
         cin>>a;
         cout<<"enter second number:\n    ";
         cin>>b;
-        cout<<"THE DIFFERENCE OF THE TWO GIVEN NUMBER IS :\n    "<<(a-b);
+        cout<<"THE DIFFERENCE OF THE TWO GIVEN NUMBER IS :\n    "<<(a-b)<<endl;
         
 
 
@@ -38,7 +39,7 @@ int main() {
         cin>>a;
         cout<<"enter second number:\n    ";
         cin>>b;
-        cout<<"THE PRODUCT OF THE TWO GIVEN NUMBER IS :\n    "<<(a*b);
+        cout<<"THE PRODUCT OF THE TWO GIVEN NUMBER IS :\n    "<<(a*b)<<endl;
         
 
     }else if (choice==4){
@@ -52,14 +53,14 @@ int main() {
         }else {
         cout<<"THE INTEGER DIVISION OR QUOTIENT ON DIVISION OF THE TWO GIVEN NUMBER IS :\n    "<<(a/b)   ;
         cout<<"\nTHE REMAINDER ON DIVISION OF THE TWO GIVEN NUMBER IS :\n    "<<(a%b)   ;
-        cout<<"\nTHE DECIMAL DIVISION OF THE TWO GIVEN NUMBER IS :\n    "<<(a/double(b));}
+        cout<<"\nTHE DECIMAL DIVISION OF THE TWO GIVEN NUMBER IS :\n    "<<(a/double(b))<<endl;}
         
 
     }else if (choice==5){
          int a;
         cout<<"enter the number:\n    ";
         cin>>a;
-        cout<<"THE SQUARE OF THE GIVEN NUMBER IS :\n    "<<pow(a,2);
+        cout<<"THE SQUARE OF THE GIVEN NUMBER IS :\n    "<<pow(a,2)<<endl;
         
     }else if (choice==6){
         int a,b;
@@ -67,12 +68,12 @@ int main() {
         cin>>a;
         cout<<"enter the power:\n    ";
         cin>>b;
-        cout<<"THE VALUE OF THE RAISED POWER IS :\n    "<<pow(a,b);
+        cout<<"THE VALUE OF THE RAISED POWER IS :\n    "<<pow(a,b)<<endl;
 
         
     }else if (choice==0){
         cout<<"THANK YOU!!\nPLEASE VISIT AGAIN";
+        break;
     }else{
-        cout<<"INVALID CHOICE. PLEASE TRY AGAIN.";
+        cout<<"INVALID CHOICE. PLEASE TRY AGAIN.";}
     }
-}
